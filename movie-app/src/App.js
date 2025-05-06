@@ -1,4 +1,3 @@
-// App.js
 import React, { useState } from 'react';
 import MovieList from './MovieList';
 import Filter from './Filter';
@@ -52,7 +51,7 @@ function App() {
       <button onClick={() => handleAddMovie({
         title: 'Avatar',
         description: 'A visually stunning science fiction movie.',
-        posterURL: 'https://example.com/avatar.jpg',
+        posterURL: 'https://m.media-amazon.com/images/I/71LRjSVXCGL._AC_UF1000,1000_QL80_.jpg',
         rating: 7.8
       })}>
         Add Avatar
